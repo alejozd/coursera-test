@@ -87,7 +87,7 @@ div {
 
 }
 
-.content {
+.contentBox {
     padding: 5px;
     border: none;
     background-color: gray;
@@ -102,7 +102,7 @@ div {
     width: 90%;
 }
 
-/*desktop version*/
+/*version desktop*/
 @media (min-width: 992px) {
     .column-lg-4 {
         float: left;
@@ -110,7 +110,7 @@ div {
     }
 }
 
-/*tablet version*/
+/*version tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
     .colmn-md-6 {
         float: left;
@@ -127,7 +127,7 @@ div {
     }
 }
 
-/*mobile version*/
+/*version mobile*/
 @media (max-width: 767px) {
     .colmn-sm-12 {
         float: left;
